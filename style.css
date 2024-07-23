@@ -6,6 +6,7 @@ html,body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    letter-spacing: -0.01px;
 }
 @font-face {
     font-family: familybold1;
@@ -36,9 +37,39 @@ html,body{
     position: relative;
     z-index: 0;
 }
+.fixed-head{
+    position: fixed;
+    top: 0;
+    padding: 16px 10px;
+    padding-bottom: 15px;
+    padding-right: 11px;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebe3e3;
+}
+.fixed-head img{
+    width: 32px;
+    height: 18px;
+    margin-left: 2px;
+}
+.fixed-head-div{
+    display: flex;
+    gap: 8px;
+    
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: flex;
+}
 .homepage{
     width: 100%;
-    height: 549px;
+    height: 551px;
     position: relative;
     background-image: url(img/mobilehome.png);
     background-repeat: no-repeat;
@@ -50,7 +81,7 @@ html,body{
     display: flex;
     justify-content: flex-end;
     padding-top: 16px;
-    padding-right: 25px;
+    padding-right: 24px;
     gap: 8px;
 }
 .login-button{
@@ -79,7 +110,10 @@ html,body{
 }
 .home-content{
     width: 100%;
-
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .name{
     width: 100%;
@@ -112,10 +146,13 @@ html,body{
     align-items: center;
     border-radius: 32px;
     padding: 12px;
-    gap: 20px;
+    padding-left: 16px;
+    padding-right: 12px;
+    gap: 13px;
+    margin-top: 9px;
 }
 .searchbar p{
-   color: rgb(25, 25, 25);
+   color: #687284;
    font-weight: 500;
    font-size: 16px;
    letter-spacing: -0.01px;
@@ -124,6 +161,9 @@ html,body{
 .searchbar img{
     height: 24px;
     width: 24px;
+}
+#searcharrow{
+    margin-left: 10px;
 }
 .account{
     width: 100%;
@@ -134,7 +174,7 @@ html,body{
     display: flex;
     background: white;
     gap: 4px;
-    padding: 6px 12px;
+    padding: 8px 12px;
     border-radius: 9999px;
 }
 .account-inner img{
@@ -144,4 +184,274 @@ html,body{
 .account-inner p{
     font-size: 14px;
     font-family: familybold1;
+}
+main{
+    background: white;
+    padding: 20px;
+    padding-bottom: 1000px;
+}
+.forapp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.playstore{
+    max-width: 360px;
+    width: 100%;
+    height: 141px;
+    background: rgb(247,247,247);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgb(248, 243, 243);
+}
+.applogo-plastore{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.applogo-plastore-in{
+    background: white;
+    padding: 8px;
+    border-radius: 12px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(248, 243, 243);
+}
+.applogo-plastore-in img{
+    height: 40px;
+    width: 40px;
+}
+.app-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: familybold1;
+}
+#googleplay{
+    height: 13px;
+    width: 75px;
+    margin-bottom: -3px;
+}
+#app-in-bold{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -4px;
+}
+#app-in-slim{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(96, 96, 96);
+    font-family: family2;
+}
+.red-app{
+    background: rgb(235, 23, 0);
+    display: flex;
+    color: white;
+    gap: 4px;
+    padding: 8px 12px;
+    width: fit-content;
+    border-radius: 9999px;
+}
+#red-app-arrow{
+    height: 16px;
+    width: 16px;
+}
+#app-in-red{
+    font-size: 14px;
+    font-weight: 700;
+}
+.three-sections{
+    margin-top: 40px;
+    padding: 24px 4px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 34px;
+}
+.three-sec-elem{
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+}
+.threesec-img img{
+    width: 88px;
+    height: 88px;
+}
+.threesec-def{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.threesec-def h2{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: familybold1;
+    line-height: 40px;
+}
+.threesec-def h3{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: family2;
+    line-height: 24px;
+}
+.threesec-def span{
+    color: rgb(235, 23, 0);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: familybold1;
+    margin-top: 14px;
+    display: flex;
+    gap: 4px;
+}
+.threesec-def span img{
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.main-background{
+    position: absolute;
+    background-color: rgb(254, 241, 238);
+    width: 100%;
+    z-index: 2;
+    padding-top: 720px;
+    margin-top: 200px;
+    margin-left: -20px;
+}
+.get-groceries{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-image: url(img/getgrocery.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.getgroceries-in{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.6);
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.getgroceries-in h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    max-width: 90%;
+    font-family: familybold1;
+    text-align: center;
+}
+.getgrocery-2{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: familybold1;
+    text-align: center;
+}
+.getgrocery-3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: family2;
+}
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    z-index: 5;
+    position: relative;
+}
+.main-content-elem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+}
+.main-content-elem-img{
+    margin-top: 40px;
+}
+.main-content-elem-img img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.main-content-elem-def{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.main-content-elem-def h2{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: familybold1;
+}
+#sec-main-def{
+    width: 100%;
+    margin-top: 10px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: familybold1;
+}
+#third-main-def{
+    width: 100%;
+    margin-top: 10px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: family2;
+}
+.find-button{
+    background: rgb(235, 23, 0);
+    width: fit-content;
+    padding: 6px 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: familybold1;
+    border-radius: 9999px;
+    margin-top: 20px;
+}
+.mainthird{
+    margin-top: 350px;
+}
+
+@media (min-width: 382px){
+    .main-background{
+        padding-top: 690px;
+    }
+}
+@media (min-width: 429px){
+    .main-background{
+        padding-top: 670px;
+    }
+}
+@media (min-width: 437px){
+    .main-background{
+        margin-top: 170px;
+        padding-top: 672px;
+    }
+}
+@media (min-width: 447px){
+    .main-background{
+        padding-top: 652px;
+    }
 }
