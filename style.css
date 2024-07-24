@@ -61,6 +61,10 @@ html,body{
     gap: 8px;
     
 }
+.imaa{
+    display: flex;
+    gap: 6px;
+}
 .invisible{
     display: none;
 }
@@ -891,6 +895,7 @@ footer{
     .main-content-elem-img img{
         height: 500px;
         width: 100%;
+        max-width: 695.02px;
     }
     .main-content-elem-def{
         justify-content: center;
@@ -922,7 +927,206 @@ footer{
     #even{
         flex-direction: row;
     }
+    #even img{
+        max-width: 724px;
+    }
+    .main-background{
+        margin-top: 500px;
+        padding-top: 650px;
+    }
+    .mainthird{
+        margin-top: 700px;
+    }
+    .get-groceries{
+        height: 600px;
+    }
+    .getgroceries-in h2{
+        margin-top: 100px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .getgrocery-2{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .getgrocery-3{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #pinky-1{
+        margin-top: 60px;
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 500px;
+        margin-bottom: 40px;
+    }
+    .pinky-scroll{
+       overflow-x: hidden;
+       flex-wrap: wrap;
+       max-width: 1184px; 
+    }
+    .pinkyscroll-elem{
+        max-width: 50%;
+        min-width: 50%;
+        margin: 0;
+    }
+    .pinky-scroll-img img{
+        height: 100%;
+        width: 100%;
+        object-position: center;
+    }
+    .pinky-scrollelem-2 h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .pinky-scrollelem-2 span{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .opportunity span{
+        max-width: 500px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    #sec-cont{
+        margin-top: 0px;
+    }
+    #second-back{
+        margin-top: -600px;
+        padding-top: 625px
+    }
+    nav h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .top-cities div{
+        width: 33.333%;
+    }
+    footer{
+        padding: 0 20px;
+    }
+    .inn11{
+        text-align: start;
+    }
+    .firstfootlist{
+        flex-direction: row;
+    }
+    .secondfootlist-part1{
+        flex-direction: row;
+        text-align: start;
+    }
+    .inn13{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .second-pinky{
+        margin-top: -20px;
+    }
+}
+@media(min-width: 769px){
+    .our-qoute{
+        margin-top: 88px;
+    }
+    .our-qoute h1{
+        max-width: 750px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .fixed-head{
+        padding: 16px 46px;
+        padding-right: 48px;
+    }
+}
+@media (max-width: 959px){
+    .deskilong{
+        display: none;
+    }
+}
+@media (min-width: 960px){
+    .logo img{
+        width: 43px;
+        height: auto;
+    }
+    .doordash img{
+        width: 155px;
+    }
+    .name{
+        gap: 12px;
+    }
+    .our-qoute{
+        margin-top: 91px;
+    }
+    .deskishort{
+        display: none;
+    }
+    .top-cities div{
+        width: 20%;
+    }
+    .inn12{
+        flex-direction: row;
+    }
+    #mobileappss{
+        max-height: 52px;
+    }
+    .secondfootlist-part2 div{
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 1183px){
+    .searcharrowsec{
+        display: none;
+    }
+}
+@media (min-width: 1184px){
+    #searcharrow{
+        display: none;
+    }
+    .searcharrowsec{
+        background-color: rgb(235, 23, 0);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: grid;
+        place-content: center;
+    }
+    .searchbar{
+        padding: 8px 5px;
+        padding-right: 0;
+        padding-left: 15px;
+    }
+    .three-sections{
+        margin-top: 60px;
+        flex-direction: row;
+        gap: 100px
+    }
+    .three-sec-elem{
+        flex-direction: column;
+        align-items: center;
+    }
+    .threesec-def{
+        text-align: center;
+        align-items: center;
+    }
+    .threesec-img img{
+        width: 154px;
+        height: 154px;
+        margin-right: 0;
+    }
+    .threesec-def span{
+        font-size: 18px;
+    }
+    .threesec-def span img{
+        margin-top: 3px;
+    }
+    .main-content-elem{
+        justify-content: center;
+    }
+    nav{
+        margin: 0 auto;
+    }
 }
 
-
-
+200
