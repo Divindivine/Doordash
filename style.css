@@ -96,6 +96,19 @@ html,body{
     align-content: center;
     border-radius: 9999px;
 }
+.signindesk{
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: familybold1;
+    color: white;
+    background-color: rgb(235, 23, 0);
+    height: 40px;
+    padding: 0px 12px;
+    align-content: center;
+    border-radius: 9999px;
+}
+
 .openapp-button{
     line-height: 22px;
     font-size: 16px;
@@ -104,6 +117,18 @@ html,body{
     color: white;
     background-color: rgb(235, 23, 0);
     height: 32px;
+    padding: 0px 12px;
+    align-content: center;
+    border-radius: 9999px;
+}
+.signupdesk{
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: familybold1;
+    color: #606060ff;
+    background-color: white;
+    height: 40px;
     padding: 0px 12px;
     align-content: center;
     border-radius: 9999px;
@@ -147,7 +172,6 @@ html,body{
     border-radius: 32px;
     padding: 12px;
     padding-left: 16px;
-    padding-right: 12px;
     gap: 13px;
     margin-top: 9px;
 }
@@ -188,7 +212,6 @@ html,body{
 main{
     background: white;
     padding: 20px;
-    padding-bottom: 1000px;
 }
 .forapp{
     width: 100%;
@@ -346,7 +369,7 @@ main{
     line-height: 28px;
     font-weight: 700;
     margin-top: 20px;
-    max-width: 90%;
+    max-width: 495px;
     font-family: familybold1;
     text-align: center;
 }
@@ -365,6 +388,7 @@ main{
     margin-top: 10px;
     text-align: center;
     font-family: family2;
+    max-width: 550px;
 }
 .main-content{
     width: 100%;
@@ -433,7 +457,358 @@ main{
 .mainthird{
     margin-top: 350px;
 }
+.second-pinky{
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    background: rgb(254, 241, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#pinky-1{
+    text-align: center;
+    max-width: 300px;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: familybold1;
+    margin-top: 40px;
+}
+.pinky-scroll{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    
+}
+.pinkyscroll-elem{
+    margin-left: 5%;
+    margin-right: -10%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    align-items: center;
 
+}
+.pinky-scroll-img{
+    width: 100%;
+}
+.pinky-scroll-img img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.pinky-scrollelem-2{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pinky-scrollelem-2 h2{
+    text-align: center;
+    max-width: 90%;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: familybold1;
+}
+.pinky-scrollelem-2 span{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: family2;
+}
+.restriction{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    font-family: family2;
+}
+.opportunity{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.opportunity span{
+    text-align: center;
+    max-width: 300px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: familybold1;
+}
+#sec-cont{
+    margin-top: -20px;
+}
+#second-back{
+    margin-top: -685px;
+    padding-top: 710px;
+}
+nav{
+    width: 100%;
+    padding: 48px 0px;
+    max-width: 1130px;
+}
+nav h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: familybold1;
+}
+.three-tops{
+    display: flex;
+    margin-bottom: 20px;
+}
+.threetop-elem{
+    width: 33.333%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #f1f1f1ff;
+    color: rgb(73, 73, 73);
+    font-family: family2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+#first-three-top{
+    border-bottom: 3px solid #606060ff;
+    color: black;
+    font-weight: 700;
+}
+.top-cities{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.top-cities div{
+    width: 50%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.top-cities div span{
+    padding: 0px 12px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: family2;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.footer-div{
+    width: 100vw;
+    background: #191919ff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-div-inner{
+    width: 1184px;
+}
+footer{
+    max-width: 1160px;
+    padding: 0 4px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.inn11{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex: 1 1 0%;
+}
+.inn11 h2{
+    margin-bottom: 8px;
+    color: white;
+    font-family: family2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.firstfootlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.firstfootlist-part1{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+.firstfootlist-part1 span{
+    margin-top: 8px;
+    color: rgb(196, 196, 196);
+    font-family: family2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.inn12{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.secondfootlist-part1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    gap: 12px;
+}
+.secondfootlist-part1 div{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.secondfootlist-part1 div h2{
+    margin-bottom: 8px;
+    color: white;
+    font-family: family2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.secondfootlist-part1 div span{
+    margin-top: 8px;
+    color: rgb(196, 196, 196);
+    font-family: family2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.secondfootlist-part2 div{
+    display: flex;
+    flex: 1 1 0%;
+    padding-top: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+.secondfootlist-part2{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+#mobileappss{
+    display: flex;
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: rgb(73, 73, 73);
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.andro{
+    margin-top: 12px;
+}
+.inn13{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px;
+}
+.footers-foot1{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-direction: row;
+}
+.footerlogo{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footers-foot1 span{
+    margin-left: 16px;
+    color: rgb(196, 196, 196);
+    font-family: family2;
+    font-size: 12px;
+    font-family: 500;
+    line-height: 18px;
+}
+.footers-foot2{
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.language{
+    width: 150px;
+}
+.footers-foot3{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.language-inner{
+    min-height: 32px;
+    width: 100%;
+    font-family: family2;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #191919ff;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 4px 12px;
+    background-color: #f1f1f1ff;
+}
+.globe{
+    max-width: 100%;
+    margin-right: 8PX;
+    display: grid;
+    place-content: center;
+}
+.afterglobe{
+    flex-grow: 1;
+    background: inherit;
+    max-width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+.afterglobe div{
+    background: inherit;
+    margin-left: -9px;
+}
+.afterglobe div img{
+    vertical-align: middle;
+}
+.socialmedias{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
 @media (min-width: 382px){
     .main-background{
         padding-top: 690px;
@@ -455,3 +830,99 @@ main{
         padding-top: 652px;
     }
 }
+@media (min-width: 471px){
+    #second-back{
+        margin-top: -660px;
+        padding-top: 685px;
+    }
+}
+@media (max-width: 767px){
+    .signindesk, .signupdesk{
+        display: none;
+    }
+    #deski{
+        display: none;
+    }
+}
+@media(min-width: 768px){
+    .homepage{
+        height: 650px;
+        background-image: url(img/desktop.webp);
+    }
+    #mobi{
+        display: none;
+    }
+    .name{
+        position: absolute;
+        margin-top: -162px;
+    }
+    .searchbar{
+        padding: 16px;
+        width: 408px;
+    }
+    .searchbar p{
+        width: 292px;
+    }
+    .searchbar img{
+        margin-left: 5px;
+    }
+    .our-qoute{
+        margin-top: 80px;
+    }
+    .threesec-img img{
+        width: 124px;
+        height: 124px;
+        margin-right: 33px;
+    }
+    .three-sections{
+        margin-top: 12px;
+    }
+    .main-content{
+        margin-top: 13px;
+    }
+    .main-content-elem{
+        flex-direction: row-reverse;
+        gap: 60px;
+        margin-top: 40px;
+    }
+    .main-content-elem-img{
+        margin: 0;
+    }
+    .main-content-elem-img img{
+        height: 500px;
+        width: 100%;
+    }
+    .main-content-elem-def{
+        justify-content: center;
+        max-width: 400px;
+    }
+    .main-content-elem-def h2{
+        margin-top: 22px;
+        max-width: 90%;
+        width: auto;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    #sec-main-def{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #third-main-def{
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .find-button{
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 9px 12px;
+    }
+    #even{
+        flex-direction: row;
+    }
+}
+
+
+
